@@ -1,0 +1,48 @@
+body{
+background:skyblue;
+}
+.dugme{
+padding:10px 10px;
+border:2px solid black;
+}
+.dugme:hover{
+background:red;
+font-weight:bold;
+border-radius:10px;
+border:2px solid black;
+width:100px;
+height:30px;
+}
+#slika1{
+height:200px;
+weight:200px;
+}
+#slika2{
+height:200px;
+weight:200px;
+}
+#slika3{
+height:200px;
+wight:200px;
+}
+#anim{
+height:200px;
+weight:200px;
+position:relative;
+animation: anim 5s infinite;
+}
+@keyframes anim{
+0%{top:0px;left:0px;}
+25%{top:100px;left:600px;}
+50%{top:0px; left:1000px;}
+75%{top:100px;left:600px;}
+100%{top:0px; left:0px;}
+}
+@media screen and (max-width:800px){
+#anim{display:none;}
+#slika3{display:none;}
+#slika2{height:100px;
+weight:100px;}
+#slika1{height:100px;
+weight:100px;}
+}

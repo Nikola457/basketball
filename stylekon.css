@@ -1,0 +1,66 @@
+body{
+	background:skyblue;
+}
+form{
+width:50%;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+fieldset{
+border:2px solid blue;
+border-radius:30px;
+}
+legend{
+font-weight:bold;
+letter-spacing:2px;
+text-align:left;
+text-transform:uppercase;
+}
+input[type=text],input[type=e-mail]{
+width:60%;
+padding:10px;
+border:1px solid blue;
+border-radius:10px;
+}
+input[type=password]{
+width:50%;
+pading:10px;
+border:1px solid blue;
+}
+select{
+margin-left:auto;
+margin-right:auto;
+width:50%;
+padding:15px;
+border:2px solid black;
+border-radius:10px;
+display:block;
+}
+option{
+padding:10px;
+font-weight:bold;
+letter-spacing:1px;
+background:black;
+color:white;
+}
+input[type=submit],input[type=reset]{
+margin-left:auto;
+margin-right:auto;
+display:inline-block;
+background:orange;
+margin-top:20px;
+border:3px solid black;
+padding:10px 30px;
+border-radius:10px;
+font-weight:bold;
+letter-spacing:1px;
+}
+input[type=submit]:hover,input[type=reset]:hover{
+background:red;
+transition:2s;
+color:white;
+}
+@media screen and (max-width:800px){
+body{background:red;}
+}
